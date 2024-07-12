@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&display=swap')
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Copse", serif;
+}
+/*header*/
+.header-outer{
+    width: 100%;
+    height: 80px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+}
+.inner-wrapper{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.logo-container{
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo-container img{
+    height: 50px;
+    width: 100%;
+}
+.nav-container{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+.nav-list{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    
+}
+.nav-list li{
+    font-size: 20px;
+    margin-right: 20px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-list li:last-child{
+    margin: 0;
+}
+
+.nav-list li:hover{
+    cursor: pointer;
+    color: #FE611C;
+    border-color:green ;
+}
+/*header*/
+/*Background Image*/
+.cover-wrapper{
+    width: 100%;
+    height: 350px;
+    background-image: url(https://img.freepik.com/free-vector/modern-city-night-skyline-neon-cartoon_1441-3160.jpg?t=st=1711128671~exp=1711132271~hmac=f6213c06165d0b0f7389c4bbe3d9dcfaa53820b90c68a269e35a6b15e72c3653&w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*Background Image*/
+/*Content*/
+.content-outer{
+    width: 100%;
+    height: 280px;
+    margin-top: -100px;
+    display: flex;
+    justify-content: center;
+}
+.content-inner{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box-outer{
+    width: 28%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.box-1{
+    border: 2px solid #464B8B;
+}
+.box-2{
+    border: 2px solid #e55c7b ;
+}
+.box-3{
+    border: 2px solid #F3A324 ;
+}
+.box-top{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-outer{
+    width: 80px;
+    height: 80px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-outer i{
+    font-size: 30px;
+}
+
+.icon-wrap1{
+    border-color: #464B8B;
+}
+.icon-wrap2{
+    border-color: #e55c7b;
+}
+.icon-wrap3{
+    border-color: #F3A324;
+}
+
+.icon-wrap1 i{
+    color: #464B8B;
+}
+.icon-wrap2 i{
+    color: #e55c7b;
+}
+.icon-wrap3 i{
+    color: #F3A324;
+}
+
+.box-bottom{
+    flex: 1;
+    background-color: red;
+}
+.b1{
+    background-color: #464B8B;
+}
+.b2{
+    background-color: #e55c7b;
+}
+.b3{
+    background-color: #F3A324;
+}
+.header{
+    color: white;
+    margin: 15px;
+    font-size: medium;
+    text-align: center;
+}
+
+.desc{
+    color: white;
+    margin: 15px;
+    font-size: small;
+    text-align: center;
+}
+/*Content*/
